@@ -1,5 +1,8 @@
 
 <!--
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
 }
@@ -8,16 +11,23 @@ header{
 }
 nav{
     width: 73%;
-    padding: .5%;
+    padding: 1%;
 }
 footer{
-    background-color: #373738;
+    background-color: #c1c1e9;
     margin-right: 90px;
     margin-left: 90px;
 }
 button{
     font-family: 'Comfortaa', cursive;
     font-size: 16pt;
+    transition: 0.3s;
+    background-color: #6C8887;
+
+}
+button:hover{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
 ul{
     width: 30%;
@@ -27,18 +37,16 @@ ul{
     display: inline-block;
     vertical-align: top;
 }
-.inline-blockn{
-    display: inline-block;
-    vertical-align: top;
-}
 .logo{
     width: 23%;
-    padding: .5%;
+    padding: 1%;
     text-align: center;
 }
-.workImg{
-    !Center!
+.navAbout{
+    
+    transition: ;
 }
+
 .heroImg{
     height: auto;
     width: 1000px;
