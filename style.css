@@ -1,0 +1,82 @@
+
+<!--
+body{
+    width: 100%;
+}
+header{
+
+}
+nav{
+    width: 73%;
+    padding: .5%;
+}
+footer{
+    background-color: #373738;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+button{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16pt;
+}
+ul{
+    width: 30%;
+    margin-left: auto;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.inline-blockn{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo{
+    width: 23%;
+    padding: .5%;
+    text-align: center;
+}
+.workImg{
+    !Center!
+}
+.heroImg{
+    height: auto;
+    width: 1000px;
+    padding: 25px;
+    margin: 0 auto;
+}
+.myWork{
+    height: auto;
+    width: 1000px;
+    padding: 25px;
+    margin: 0 auto;
+}
+.mySkills{
+    height: auto;
+    width: 1000px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Fauna One', serif;
+    font-size: 64pt;
+
+}
+h2{
+    font-family: 'Fauna One', serif;
+    font-size: 48pt;
+
+}
+h3{
+    font-family: 'Fauna One', serif;
+    font-size: 36pt;
+}
+h4{
+    font-family: 'Fauna One', serif;
+    font-size: 24pt;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18pt;
+}
