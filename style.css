@@ -36,6 +36,7 @@ footer{
 }
 
 /* Components*/
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -63,6 +64,59 @@ nav{
     outline: 1px solid red;
 
 }
+button{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16pt;
+    transition: 0.3s;
+    background-color: #AABBB6;
+    border: .5px solid #6C8887 ;
+    border-radius: 4px;
+    outline: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+}
+button:hover{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    outline: 1px solid red;
+}
+.return{
+    float:right;
+    vertical-align: top;
+}
+.mockup{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
+.myWork{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red
+}
+.flex{
+
+}
+.mySkills{
+    text-align: center;
+    text-justify: auto;
+    width: 33%;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grid{
+    display: grid;
+    outline: 1px solid red;
+    columns: 1fr 1fr 1fr;
+    grid-template-rows: .8fr .5fr 2fr .5fr;
+    align-items: center;
+}
 footer ul{
     display: flex;
     vertical-align: top;
@@ -74,30 +128,6 @@ footer ul{
     padding-left: 18%;
 
 }
-button{
-    font-family: 'Comfortaa', cursive;
-    font-size: 16pt;
-    transition: 0.3s;
-    background-color: #AABBB6;
-    border: .5px solid #6C8887 ;
-    border-radius: 4px;
-    outline: 1px solid red;
-
-}
-button:hover{
-    font-family: 'Comfortaa', cursive;
-    font-weight: bolder;
-    outline: 1px solid red;
-
-}
-.mockup{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: auto;
-}
-
 /* Font Text Headings */
 
 h2{
