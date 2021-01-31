@@ -4,64 +4,75 @@ html{
     scroll-behavior: smooth;
 }
 body{
-
+margin: 0px 10% 0px 10%;
 }
 header{
+    outline: 1px solid rgb(255, 0, 234);
 
 }
-.heroImg{
+#Welcome{
     height: auto;
-    width: 1000px;
     padding: 25px;
     margin: 0 auto;
+    outline: 5px solid greenyellow;
+
 }
-.myWork{
+#MyWork{
     height: auto;
-    width: 1000px;
     padding: 25px;
     margin: 0 auto;
+    outline: 5px solid greenyellow;
 }
-.mySkills{
+#MySkills{
     height: auto;
-    width: 1000px;
     padding: 25px;
     margin: 0 auto;
+    outline: 5px solid greenyellow;
+
 }
 footer{
-    background-color: #c1c1e9;
-    margin-right: 90px;
-    margin-left: 90px;
+    outline: 5px solid greenyellow;
+
 }
 
 /* Components*/
-nav{
-    width: 68%;
-    padding: 1%;
-    font-family: 'Fauna One', serif;
-    font-size: 16pt;
-}
 .inline-block{
     display: inline-block;
     vertical-align: top;
     padding: 5px;
+    outline: 1px solid red;
+}
+nav{
+    width: 80%;
+    font-family: 'Fauna One', serif;
+    font-size: 16pt;
+    outline: 7px solid rgb(255, 0, 234);
+
 }
 .logo{
-    width: 29%;
-    padding: .5%;
+    width: 17%;
+    height: auto;
     text-align: center;
+    outline: 1px solid red;
 }
 .navHead{
-    width: 70%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding-left: 30%;}
+    padding-left: 30%;
+    outline: 1px solid red;
+
+}
 footer ul{
     display: flex;
     vertical-align: top;
-    border: 3px solid teal;
     font-family: 'Fauna One', serif;
     font-size: 16pt;
+    outline: 1px solid red;
+    width: 60%;
+    justify-content: space-between;
+    padding-left: 18%;
+
 }
 button{
     font-family: 'Comfortaa', cursive;
@@ -70,38 +81,43 @@ button{
     background-color: #AABBB6;
     border: .5px solid #6C8887 ;
     border-radius: 4px;
+    outline: 1px solid red;
+
 }
 button:hover{
     font-family: 'Comfortaa', cursive;
     font-weight: bolder;
-    transition: ;
-}
+    outline: 1px solid red;
 
+}
+.mockup{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
 
 /* Font Text Headings */
 
-h1{
-    font-family: 'Fauna One', serif;
-    font-size: 64pt;
-
-}
 h2{
     font-family: 'Fauna One', serif;
-    font-size: 48pt;
+    font-size: 36pt;
 
 }
 h3{
     font-family: 'Fauna One', serif;
-    font-size: 36pt;
+    font-size: 24pt;
 }
 h4{
     font-family: 'Fauna One', serif;
-    font-size: 24pt;
+    font-size: 20pt;
 }
 p{
     font-family: 'Comfortaa', cursive;
-    font-size: 18pt;
+    font-size: 16pt;
 }
+
 li{
     font-family: 'Comfortaa', cursive;
     font-size: 16pt;
